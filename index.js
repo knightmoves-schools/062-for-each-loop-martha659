@@ -9,7 +9,8 @@ function markAsDone(todos) {
     modifiedTodos.push(modifiedTodo);
   });
 
-  return modifiedTodos
+  return modifiedTodo;
+}
 
 
 
