@@ -2,19 +2,7 @@ function markAsDone(todos) {
   const modifiedTodos = [];
 
   todos.forEach(todo => {
-    const modifiedTodo = {
-      ...todo, 
-      description: 'done - ' + todo.description
-    };
-    modifiedTodos.push(modifiedTodo);
-  });
-
-  return modifiedTodo;
+     modifiedTodos.push("done _ " + todos)
+  )}
+return modifiedTodos;
 }
-
-
-
-
-
-
-
